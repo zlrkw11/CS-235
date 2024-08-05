@@ -31,3 +31,51 @@ a:hover{
   background-color: white;
   color: #333333;
 }
+
+.copyright{
+  padding: 5px 40px;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container{
+  margin-top: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-items: center;
+}
+
+.input{
+  height: 70px;
+  width: 550px;
+  border-radius: 5px;
+  border: none
+}
+
+.search-button{
+  border: none;
+  height: 70px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.input:hover{
+  
+}
+
+.search-button:hover{
+  cursor: pointer;
+}
+
+.copyright{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+body{
+  background-color: #666666;
+}
