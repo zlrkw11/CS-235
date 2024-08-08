@@ -1,15 +1,15 @@
 .navbar {
+  top: 0;
+  left: 0;
   background-color: #333333;
   justify-items: center;
-  display:flex;
+  display: flex;
   align-items: center;
   padding: 20px 40px;
 }
 
-
 .heading {
   color: white;
-  
 }
 
 ul {
@@ -19,69 +19,66 @@ ul {
   list-style-type: none;
 }
 
-ul a{
-  
+ul a {
   text-decoration: none;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
-  
 }
 
-a:hover{
+a:hover {
   background-color: white;
   color: #333333;
 }
 
-.copyright{
+.copyright {
   padding: 5px 40px;
 }
 
-.container{
-  width: 100%;
-  justify-content: center;
+.search-container {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.search-container{
-  margin-top: 20px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  justify-items: center;
-}
-
-.input{
+.input {
   height: 70px;
   width: 550px;
   border-radius: 5px;
-  border: none
+  border: none;
 }
 
-.search-button{
+.search-button {
   border: none;
   height: 70px;
   width: 150px;
   border-radius: 5px;
 }
 
-.search-button:hover{
+.search-button:hover {
   cursor: pointer;
 }
 
-body{
+body {
   background-color: #666666;
-
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-footer{
+footer {
   display: flex;
   bottom: 0;
-  position: absolute;
+  position: fixed;
   color: white;
   justify-content: center;
   width: 100%;
   background-color: #333333;
 }
 
-.footer-c{
+.footer-c {
   display: flex;
   bottom: 0;
   color: white;
@@ -90,7 +87,7 @@ footer{
   background-color: #333333;
 }
 
-#podcast-grid{
+#podcast-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
@@ -106,7 +103,7 @@ footer{
   overflow: hidden;
 }
 
-.podcast-item img{
+.podcast-item img {
   width: 100%;
   height: auto;
   object-fit: cover;
