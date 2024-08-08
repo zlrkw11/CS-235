@@ -80,3 +80,10 @@ footer{
   width: 100%;
   background-color: #333333;
 }
+
+.podcast-item {
+  width: 200px;
+}
+.podcast-image{
+  width: 80px;
+}
