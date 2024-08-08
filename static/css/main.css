@@ -38,6 +38,7 @@ a:hover {
 .search-container {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  margin: 200px auto;
 }
 
 .input {
@@ -62,10 +63,12 @@ body {
   background-color: #666666;
   margin: 0;
   padding: 0;
-  height: 100vh;
+  min-height: 100vh;
+}
+#body {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 footer {
