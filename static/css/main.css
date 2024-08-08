@@ -6,6 +6,7 @@
   padding: 20px 40px;
 }
 
+
 .heading {
   color: white;
   
@@ -62,20 +63,20 @@ a:hover{
   border-radius: 5px;
 }
 
-.input:hover{
-  
-}
-
 .search-button:hover{
   cursor: pointer;
 }
 
-.copyright{
-  display: flex;
-  justify-content: center;
-  color: white;
-}
-
 body{
   background-color: #666666;
+}
+
+footer{
+  display: flex;
+  bottom: 0;
+  position: absolute;
+  color: white;
+  justify-content: center;
+  width: 100%;
+  background-color: #333333;
 }
