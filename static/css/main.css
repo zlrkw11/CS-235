@@ -118,3 +118,16 @@ footer {
 .podcast-info {
   padding: 10px;
 }
+
+#description {
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 75%;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
