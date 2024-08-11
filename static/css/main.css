@@ -36,9 +36,12 @@ a:hover {
 }
 
 .search-container {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  margin: 200px auto;
+  justify-content: center;
+  margin-top: 60px;
+  padding: 20px;
+  display: flex; /* Align the input and button together */
+  margin: 0, auto;
+  gap: 10px; /* Optional: space between the input and button */
 }
 
 .input {
